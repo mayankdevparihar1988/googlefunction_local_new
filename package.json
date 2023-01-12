@@ -1,0 +1,18 @@
+{
+  "name": "googlefunction_local_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx functions-framework --port=8888 --target=myHttpFunction --signature-type=http"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.1.3"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^7.0.0"
+  }
+}
